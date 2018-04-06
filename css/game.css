@@ -1,0 +1,30 @@
+.background    { background: rgb(52, 166, 251);
+                  background-image: url("images/candyland.jpg");
+                  background-size: 650px 500px;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          {background-image: url("images/lava.gif");
+               background-size: 100px 100px;}
+.wall          { background: lightblue; }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/donut.gif");
+          background-size: 35px 35px;}
+.player { background-image: url(images/Dulceroll.png);
+          background-size: 35px 35px;}
+.floater { background: gold; }
+
+.game {
+  overflow: hidden;
+  max-width: 650px;
+  max-height: 500px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(221,160,221);
+}
+.won .player {
+  box-shadow: -4px -7px 8px gold, 4px -7px 8px gold;
+}
